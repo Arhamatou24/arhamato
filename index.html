@@ -1,226 +1,249 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.2.0/css/line.min.css">
-    <title>Mon Portfolio</title>
+
+    <title>Portfolio | Arhamatou Maiga</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="content">
-        <nav id="header">
-            <div class="nav-logo">
-               <p class="nav-name">Arhamatou Maiga</p>
-            </div>
-            <div class="nav-menu" id="monNavMenu">
-                <ul class="nav_menu_list">
-                  <li class="nav_list">
-                    <a href="#home" class="nav-link active-link">Accueil</a>
-                    <div class="circle"></div>
-                  </li>
-                  <li class="nav_list">
-                    <a href="#about" class="nav-link">A propos</a>
-                    <div class="circle"></div>
-                  </li>
-                  <li class="nav_list">
-                    <a href="#Projects" class="nav-link">Projets</a>
-                    <div class="circle"></div>
-                  </li>
-                  <li class="nav_list">
-                    <a href="#contact" class="nav-link">contact</a>
-                    <div class="circle"></div>
-                  </li>
-                </ul>
-           
-            <div class="nav-menu-btn">
-              <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-            </div>
-        </nav>
 
+<div class="content">
 
-        <main class="wrapper">
-        <section class="featured-box" id="home">
-          <div class="featured-text">
-            <div class="hello">
-            <p>Bonjour, je suis</p>
-          </div>
-          <div class="feature-name">
-            <span class="typedText"></span>
-          </div>
-          <div class="text-info">
-            <p class="b">Je m'appelle Arhamatou!, je suis developpeur web</p>
-            <div class="text-btn">
-             
-              <a href="CV Arhamatou.pdf.pdf" download class="btn">
-                Télécharger CV <i class="uil uil-file"></i>
-              </a>
-
-            
-          <div class="social_icons">
-  <div class="social_circle"></div>
-  <a href="https://www.linkedin.com/in/arhamatou-ma%C3%AFga-21143228b/" target="_blank" class="icon">
-    <i class="uil uil-linkedin-alt"></i>
-  </a>
-  <a href="https://github.com/Arhamatou24" target="_blank" class="icon">
-    <i class="uil uil-github-alt"></i>
-  </a>
-</div>
-
-        </div> 
-        </div>
-        </div>
-        <div class="featured-image">
-          <div class="image">
-            <img src="images/background-image.jpg" alt="Photo Arhamatou">
-          </div>
-        </div>
-        </section>
-
-
-        <!------A propos-->
-        <section class="section" id="about">
-           <div class="top-header">
-            <h1>A propos de moi</h1>
-           </div>
-           <div class="row">
-            <div class="col">
-            <div class="about-info">
-              <figure class="about-me">
-                <figcaption>
-                  <img src="" alt="" class="profile" />
-                    <h2>Soft Skills</h2>
-                    <p>Animée par une passion pour les nouvelles technologies, je me distingue par ma rigueur, mon assiduité et mon esprit d'initiative. Curieuse et déterminée, je m’investis pleinement dans chaque projet afin d’innover et d’évoluer constamment. Dans le management de projets, j’allie adaptabilité, travail en équipe, écoute active, ainsi que prise de parole en public et pitch de projet pour mener chaque initiative vers le succès.</p>
-              </figure>
-     
-            </div>
-           </div>
-           
-           <div class="skill">
-           <div class="skill-box">
-            <span class="title">Html</span>
-            <div class="skill-bar html">
-              <span class="skill-per">
-                <span class="tooltip">80%</span>
-              </span>
-            </div>
-            </div>
-           <div class="skill-box">
-            <span class="title">CSS</span>
-            <div class="skill-bar css">
-              <span class="skill-per">
-                <span class="tooltip">80%</span>
-              </span>
-            </div>
-            </div>
-            <div class="skill-box">
-            <span class="title">JavaScript</span>
-            <div class="skill-bar javascript">
-              <span class="skill-per">
-                <span class="tooltip">70%</span>
-              </span>
-            </div>
-            </div>
-          <div class="skill-box">
-            <span class="title">Lavarel</span>
-            <div class="skill-bar">
-              <span class="skill-per laravel">
-                <span class="tooltip">40%</span>
-              </span>
-            </div>
-            </div>
-            <div class="skill-box">
-            <span class="title">PHP</span>
-            <div class="skill-bar">
-              <span class="skill-per php">
-                <span class="tooltip">40%</span>
-              </span>
-            </div>
-            </div>
-           </div>
-           </div>
-           
-        </section>
-
-
-        <!--------Projets-->
-
-      <section class="section" id="Projects">
-        <div class="top-header">
-          <h1>Projets</h1>
-        </div>
-        <div class="project-container">
-          <div class="project-box">
-            <i class="uil uil-briefcase-alt"></i>
-            <h3>Site Web</h3>
-            <label>Mise en place d'un site web publicitaire avec Boostrap</label>
-          </div>
-          <div class="project-box">
-            <i class="uil uil-briefcase-alt"></i>
-            <h3>Mini Jeu vidéo</h3>
-            <label>Réalisation d'un jeu vidéo éducatif avec Unity</label>
-          </div>
-          <div class="project-box">
-            <i class="uil uil-briefcase-alt"></i>
-            <h3>Site E-Commerce</h3>
-            <label>Réalisation d'un site E-Commerce avec Laravel</label>
-          </div>
-           </div>
-      </section>
-
-
-<!-- Section Contact -->
-<section class="section contact-section" id="contact">
-  <div class="top-header">
-    <h1>Travaillons ensemble</h1>
-    <span>Avez-vous besoin d'un développeur web ? Contactez-moi</span>
-  </div>
-  <div class="row contact-row">
-    <!-- Colonne infos de contact -->
-    <div class="col contact-col">
-      <div class="contact-info">
-        <h2>Contactez-moi <i class="uil uil-corner-right-down"></i></h2>
-        <p><i class="uil uil-envelope"></i> Email : arhamatou24@gmail.com</p>
-        <p><i class="uil uil-phone"></i> Téléphone : +223 71520058</p>
-      </div>
+<!-- ================= NAVBAR ================= -->
+<nav id="header">
+    <div class="nav-logo">
+        <p class="nav-name">Arhamatou Maiga</p>
     </div>
 
-<form id="contactForm" action="https://formspree.io/f/xgvyzwaj" method="POST">
-  <div class="form-inputs">
-    <input type="text" name="name" class="input-field" placeholder="Votre Nom" required>
-    <input type="email" name="email" class="input-field" placeholder="Votre Email" required>
-  </div>
-  <div class="text-area">
-    <input type="text" name="subject" class="input-subject" placeholder="Objet">
-    <textarea name="message" placeholder="Message" required></textarea>
-  </div>
-  <div class="form-button">
-    <button class="btn" type="submit">Envoyer <i class="uil uil-message"></i></button>
-  </div>
+    <div class="nav-menu" id="monNavMenu">
+        <ul class="nav_menu_list">
+            <li class="nav_list">
+                <a href="#home" class="nav-link active-link">Accueil</a>
+                <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+                <a href="#about" class="nav-link">À propos</a>
+                <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+                <a href="#projects" class="nav-link">Projets</a>
+                <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+                <a href="#contact" class="nav-link">Contact</a>
+                <div class="circle"></div>
+            </li>
+        </ul>
+    </div>
 
-  
-  <div id="formSuccess" style="display: none; color: green; margin-top: 10px;">
-    Message envoyé avec succès !
-  </div>
-</form>
+    <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+    </div>
+</nav>
 
+<!-- ================= HOME ================= -->
+<main class="wrapper">
 
+<section class="featured-box" id="home">
+    <div class="featured-text">
+        <p>Bonjour, je suis</p>
+        <h1>Arhamatou Maiga</h1>
+        <p>Développeuse Web & Ingénieure Informatique</p>
+
+        <a href="CV Arhamatou.pdf.pdf" download class="btn">
+            Télécharger CV <i class="uil uil-file"></i>
+        </a>
+
+        <div class="social_icons">
+            <a href="https://www.linkedin.com/in/arhamatou-maïga-21143228b/" target="_blank" class="icon">
+                <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://github.com/Arhamatou24" target="_blank" class="icon">
+                <i class="uil uil-github-alt"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="featured-image">
+        <img src="images/background-images.png" alt="Photo Arhamatou">
+    </div>
 </section>
 
-<!-- Footer -->
+<!-- ================= ABOUT + SKILLS ================= -->
+<section class="section" id="about">
+    <div class="top-header">
+        <h1>À propos de moi</h1>
+    </div>
+
+    <p class="about-text">
+        Ingénieure en informatique passionnée par les TIC, le développement web et l'innovation technologique.
+        Curieuse, rigoureuse et orientée impact, je m’investis pleinement dans chaque projet.
+     
+    </p>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <div class="skills-section">
+
+        <div class="skills-category">
+            <h2>Compétences techniques</h2>
+            <div class="skills-list">
+                <span class="skill-item">Laravel</span>
+                <span class="skill-item">PHP</span>
+                <span class="skill-item">Flutter</span>
+                <span class="skill-item">HTML / CSS</span>
+                <span class="skill-item">JavaScript</span>
+                <span class="skill-item">C#</span>
+                <span class="skill-item">Unity</span>
+                <span class="skill-item">Bootstrap</span>
+                <span class="skill-item">Git & GitHub</span>
+                <span class="skill-item">Blender</span>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h2>Outils & Environnements</h2>
+            <div class="skills-list">
+                <span class="skill-item">Visual Studio Code</span>
+                <span class="skill-item">Postman</span>
+                <span class="skill-item">Packet Tracer</span>
+                <span class="skill-item">VirtualBox</span>
+                <span class="skill-item">VMware Workstation</span>
+                <span class="skill-item">Trello</span>
+            </div>
+        </div>
+
+        
+
+        <div class="skills-category">
+            <h2>Soft Skills</h2>
+            <div class="skills-list">
+                <span class="skill-item">Travail en équipe</span>
+                <span class="skill-item">Communication efficace</span>
+                <span class="skill-item">Adaptabilité</span>
+                <span class="skill-item">Gestion de projet</span>
+                <span class="skill-item">Pitch & prise de parole</span>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h2>Langues</h2>
+            <div class="skills-list">
+                <span class="skill-item">Français : C2</span>
+                <span class="skill-item">Anglais : B2</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section" id="projects">
+    <div class="top-header">
+        <h1>Projets</h1>
+    </div>
+
+    <div class="project-container">
+
+        <!-- Projet 1 -->
+<!-- Projet Site Vitrine avec icône site -->
+<div class="project-box">
+    <i class="uil uil-globe"></i> <!-- Icône représentant le site -->
+    <h3>Site Web Vitrine</h3>
+    <p>Création d’un site web publicitaire avec Bootstrap.</p>
+    
+    <a href="https://github.com/Arhamatou24/site-web-piscismart" target="_blank" class="project-link">Voir sur GitHub</a>
+</div>
+
+
+
+       
+
+        <!-- Projet 4 -->
+        <!-- Projet Application Pisciculture avec PDF -->
+<div class="project-box">
+    <i class="uil uil-server"></i>
+    <h3>Application Pisciculture</h3>
+    <p>Back-end Laravel pour soutenir les pisciculteurs avec API intégrée.</p>
+    <!-- Lien pour télécharger le PDF -->
+    <a href="pisciSmart.pdf" download class="project-link">
+        Télécharger le PDF
+    </a>
+</div>
+
+
+        <!-- Projet 5 -->
+    
+<div class="project-box">
+    <i class="uil uil-lightbulb-alt"></i>
+    <h3>Orange Summer Challenge</h3>
+    <p>Projet innovant réalisé en équipe dans un cadre agile (ODC Bamako).</p>
+    <!-- Bouton ou lien vers la vidéo YouTube -->
+    <a href="https://www.youtube.com/watch?v=kP-wXs9_oNo&t=106s" target="_blank" class="project-link">
+        Voir la démo
+    </a>
+</div>
+
+ <!-- Projet 2 -->
+        <div class="project-box">
+    <i class="uil uil-game-structure"></i>
+    <h3>Jeu Vidéo Éducatif</h3>
+    <p>Démo vidéo du jeu éducatif pour enfants développé avec Unity et C#.</p>
+    <a href="https://www.linkedin.com/posts/arhamatou-ma%C3%AFga_passionn%C3%A9e-de-gaming-voici-une-d%C3%A9mo-dun-activity-7140674794181537794-tkNw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZdYa0BgelJ7UucEJDyHfOMZOL7MvS0VcU" target="_blank" class="project-link">Voir la démo</a>
+</div>
+
+
+        <!-- Projet 3 -->
+        <div class="project-box" onclick="window.open('https://github.com/Arhamatou24/e-commerce-laravel', '_blank')">
+            <i class="uil uil-shopping-cart"></i>
+            <h3>Site E-Commerce</h3>
+            <p>Plateforme e-commerce développée avec Laravel et Blade.</p>
+        </div>
+        <!-- Projet Émission TV -->
+<div class="project-box">
+    <i class="uil uil-tv"></i>
+    <h3>Émission TV</h3>
+    <p>Participation à l’émission MoveUp qui avait pour thème:"Innovation technologique,quand les femmes prennent les commandes".</p>
+    <a href="https://www.youtube.com/watch?v=za7wTHltHVM&t=578s" target="_blank" class="project-link">Voir l’émission</a>
+</div>
+
+
+
+     
+
+       
+
+      
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+    <div class="top-header">
+        <h1>Travaillons ensemble</h1>
+        <p>Besoin d’un développeur ? Contactez-moi</p>
+    </div>
+
+    <form action="https://formspree.io/f/xgvyzwaj" method="POST">
+        <input type="text" name="name" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button class="btn">Envoyer</button>
+    </form>
+</section>
+
 <footer>
-  
-  <div class="botton-footer">
-    <p>Copyright &copy; <a href="#home">Arhamatou Maiga</a> - Tous droits réservés</p>
-  </div>
+    <p>© Arhamatou Maiga — Tous droits réservés</p>
 </footer>
 
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-</body>
+</main>
 
 <script src="script.js"></script>
+</body>
 </html>
